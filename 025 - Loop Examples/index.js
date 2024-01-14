@@ -20,7 +20,7 @@
 
 
 //FOR LOOP WITH FILTERING INDEX ASSUMING NA NAAY COLLECTION FROM REDUX
-let bill_category = [1,2,3,4,5,6,7,8,9,10,29, 32,31,30,33];
+let bill_category = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 29, 32, 31, 30, 33];
 
 let findId1 = 29; //bc_id SCHOOL ID
 let findId2 = 30; //bc_id TEST PAPER FEE
@@ -33,7 +33,7 @@ for(let i = 0; i < bill_category.length; i++){
     if(bill_category[i] === findId1 || bill_category[i] === findId2 || bill_category[i] === findId3 || bill_category[i] === findId4 || bill_category[i] === findId5){
         console.log(bill_category[i]);
         totalMescellaneous += bill_category[i];
-        console.log("TOTAL MESCELLANEOUS ACCOUNT", totalMescellaneous);
+        console.log("TOTAL MESCELLANEOUS ACCOUNT", totalMescellaneous, "is found at index", +i);
     }
 }
 
