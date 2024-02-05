@@ -38,8 +38,7 @@ console.log(data(5,5));
 //function expression //
 
 
-
-//function declaration to array // 
+//ADD FUNCTION SA ARRAY//
 function elements(param1, param2){
     let items = 1;
 
@@ -51,7 +50,7 @@ function elements(param1, param2){
 
 let parsingFunction = [elements];
 console.log(parsingFunction[0](3,3));
-//function declaration to array // 
+///////////////////////////////////////////////////////////////////////////
 
 
 
@@ -62,14 +61,15 @@ let numbers = {
 
 console.log(numbers.data(5, 5));
 
-//function to an ARRAY OBJECT AS PROPERTY
+//////////////////////////////////////////////////////////////////
 
 
-//PROPERTY TO FUNCTION//
+//ADD PROPERTY SA FUNCTION//
 tao.listahan = "HASTANG WERDOHA ANG JAVASCRIPT!";
 
 console.log(tao.listahan);
-//PROPERTY TO FUNCTION//
+
+/////////////////////////////////////////////////////////////////////////
 
 
 //FUNCTION TO PARAMETER === IS CALLBACK FUNCTION//
@@ -79,7 +79,8 @@ function callbackExample(callback){
 
 console.log(callbackExample(courses));
 
-//FUNCTION TO PARAMETER === IS CALLBACK FUNCTION//
+/////////////////////////////////////////////////////////////////////////
+
 
 
 //CALLBACK RETURN A FUNCTION//
