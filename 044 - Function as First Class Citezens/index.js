@@ -112,6 +112,15 @@ console.log(returnAFunction()(10,3));
 
 
 
+function collection(x, y){
+    let total = 1;
+    for(let i = 0; i < y; i++){
+        total *=x;
 
+    }
+    return total;
+}
+
+console.log(collection(4, 2, 4, 5, 7));
 
 
