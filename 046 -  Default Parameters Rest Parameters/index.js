@@ -12,7 +12,7 @@
 
 
 
-//E RETURN NIYA ANG PINAKADAKO NA NUMBER
+//E RETURN NIYA ANG PINAKADAKO NA NUMBER SPREAD OPERATORS
 function ohaha(w, ...extra){
     let data = w;
     for(y = 0; y < extra.length; y++){
@@ -24,5 +24,22 @@ function ohaha(w, ...extra){
 }
 
 console.log(ohaha(30, 345, 3245, 5767, 789, 7689));
+
+
+
+//KUHAON ANG PINAKAGAMAY GAMIT SPREAD OPERATORS
+function ohaha1(K, ...extra){
+    let data = K;
+    for(y = 0; y < extra.length; y++){
+        if(extra[y] < data){
+            data = extra[y];
+        }
+    }
+    return data;
+}
+console.log(ohaha1(30, 345, 3245, 5767, 789, 7689));
+
+
+
 
 
